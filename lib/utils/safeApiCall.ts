@@ -1,5 +1,5 @@
 import { toString } from 'lodash';
-import { LRUMap } from 'lru_map';
+import { LRUMap } from './lru_map';
 
 // Wrapper around 'spotify-web-api-node' methods to enable simpler DSL
 // and better error management (promise-way)
